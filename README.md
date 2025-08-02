@@ -20,10 +20,12 @@
 
 ## 전략
 
-```python
-# str1의 문자 요소들을 key로, 개수를 value로 하는 dict 생성
-# value는 .count() 메서드 활용
-# str1의 문자를 pop해서
-	# if pop한 문자 not in dict.keys(): dict.update()
-# 이렇게 하려면 str1, str2를 리스트로 변환하는 게 낫겠다.
-```
+str1의 문자 요소들을 key로, 개수를 value로 하는 dict 생성
+
+value는 .count() 메서드 활용
+
+str1의 문자를 pop해서
+
+	if pop한 문자 not in dict.keys(): dict.update()
+
+이렇게 하려면 str1, str2를 리스트로 변환하는 게 낫겠다.
